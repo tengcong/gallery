@@ -53,10 +53,13 @@ body{
 }
 
 #myModal{
-  width: auto;
+  /* width: auto; */
+  /* height: auto; */
 }
 .modal-body{
-  overflow: hidden;
-  margin-bottom: 10px;
+  height: 1000px;
+  /* height: auto; */
+  /* overflow: hidden; */
+  /* margin-bottom: 10px; */
 }
 

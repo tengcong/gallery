@@ -1,12 +1,15 @@
 $(function(){
 
   $('img.lazy').lazyload({
-
     load: reload
-
   });
 
   reload();
+
+  $(".pic").on('click', "img", function(){
+    var url = $(this).data('original');
+    $('.modal-body>img').attr('src', url);
+  });
 });
 
 function reload(){
