@@ -1,0 +1,44 @@
+body{
+  background: url('body_bg.jpg');
+}
+
+#container{
+  width: 100%;
+}
+
+.view{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.tringle{
+  background: url(tringle.png);
+  position: absolute;
+  z-index:999;
+  bottom: 0px;
+  left: 15px;
+  height: 10px;
+  width: 20px;
+}
+
+.descr{
+  background-color: white;
+  padding: 15px;
+}
+
+.descr h4{
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.descr p{
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+.item{
+  width: 220px;
+  margin: 10px;
+  float:left;
+}
+
