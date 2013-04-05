@@ -3,7 +3,7 @@ body{
 }
 
 #container{
-  width: 100%;
+  margin: 0 auto;
 }
 
 .view{
@@ -12,33 +12,42 @@ body{
   position: relative;
 }
 
+.view .pic{
+  padding: 5px;
+}
+
 .tringle{
   background: url(tringle.png);
   position: absolute;
   z-index:999;
   bottom: 0px;
   left: 15px;
-  height: 10px;
+  height: 13px;
   width: 20px;
 }
 
 .descr{
   background-color: white;
-  padding: 15px;
+  padding: 5px;
 }
 
 .descr h4{
-  margin-top: 10px;
-  line-height: 20px;
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.2em;
 }
 
 .descr p{
-  font-size: 11px;
+  line-height: 1.2em;
+  font-size: 10px;
   margin-bottom: 0px;
 }
 .item{
   width: 220px;
   margin: 10px;
   float:left;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
-
