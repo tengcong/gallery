@@ -7,7 +7,9 @@ $(function(){
   reload();
 
   $(".pic").on('click', "img", function(){
-    var url = $(this).data('original');
+    var $image = $(this);
+    var url = $image.data('original');
+
     $('.modal-body>img').attr('src', url);
   });
 });
